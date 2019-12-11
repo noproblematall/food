@@ -1,0 +1,105 @@
+a{color: #a7662f;}
+.display_none {display: none !important;transition: all 1s;}
+.custom-invalid-feedback {width: 100%;margin-top: 0.25rem;font-size: 80%;color: #DC3545;}
+.loader_container {position: fixed;background: rgba(0,0,0,0.2);width: 100%;height: 100%;top:0;left:0;z-index: 100000;}
+.custom_avatar {width: 50px;height: 50px;background-color: #cccccc;padding-top: 10px;border-radius: 50%;border: 2px solid #ffc600;font-weight: bold;cursor: pointer;text-align: center;}
+li.notify {margin-right: 15px;color: white;position: relative;cursor: pointer;padding: 0 5px;}
+.notify_light {position: absolute;width: 10px;height: 10px;border-radius: 100%;background-color: red;left: 15px;}
+.notify ul.sub-menu {color: #606060;width: 300px;padding: 5px 10px;font-size: 12px;cursor: default;}
+.notify ul.sub-menu li {width: 100% !important;}
+.notify ul.sub-menu > li {display: flex; justify-content: space-between;}
+.mark_all {color: #50aa5b;cursor: pointer;}
+.noti_container {max-height: 250px;overflow-y: scroll;}
+.noti_container li a{padding: 0 !important; color: #606060 !important;}
+#footer-1 {padding-top: 0; height: 400px;}
+.footer-widget-1 {margin-top: 50px;}
+a:hover{text-decoration: none !important;}
+ul li {list-style: none;}
+.sub-menu li a {width: 100%;}
+.pagination {justify-content: flex-end;}
+#booking_filter, #experience_filter {float: right;}
+.btn-custom {background-color: #a7662f; color: #fff;}
+button.btn-custom:hover{background-color: #ffc600; color: #a7662f;}
+.page-item.active .page-link{background-color: #a7662f; color: #fff;border-color: #a7662f;}
+.page-link:hover{background-color: #ffc600; color: #a7662f;}
+.page-link{color: #a7662f;}
+.ellipsis {text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.tour-infomation__content__header__icon i{color: #a7662f;}
+.page-link {padding: .3rem .55rem; font-size: 14px;}
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover{text-decoration: line-through;}
+.day-active {background-color: #a7662f !important;color: #fff;}
+.loader_container {
+    position: fixed;
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .sk-three-bounce .sk-child {
+        background-color: #a7662f !important;
+    }
+    #empty_alert{position: relative;padding: .15rem 1.25rem;margin-bottom: 7px;border: 1px solid transparent;border-radius: .25rem;font-size: 14px;}
+/* -------------------- header-2 ------------------------------------- */
+#header-2 {background-color: #fff;}
+.header-content2 {height: 80px;}
+#header-2 li.notify {position: relative;margin-left: 10px;}
+#header-2 li.notify i {color: black;}
+#header-2 .notify_light {top: 44px;}
+.header-2-nav li ul {top: 75px !important;}
+.read_more {color: #fff;font-size: 24px;border: 2px solid #ffc600;padding: 8px 24px;border-radius: 10px;}
+a.read_more:hover { color: #ffc600;background-color: #fff;}
+/* .header-2-nav .custom_avatar {border-color: #ffc600;} */
+.custom_avatar_image{border: 2px solid #ffc600;cursor: pointer;border-radius: 50%;}
+/* ------------------- User Dashboard ------------------------------- */
+.user_dashboard {background-color: #F0F0F0;}
+.side_bar, .user_content {box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);border-radius: 3px;background: #fff;}
+.custom_avatar_large {width: 150px;height: 150px;background-color: #cccccc;padding: 6px;border-radius: 50%;border: 2px solid #ffc600;font-weight: bold;font-size: 50px; color: #4e4e4e;display: flex;justify-content: center;align-items: center;}
+/* .custom_avatar_image {border-radius: 50%;} */
+.side_bar_content ul li{margin-top: 10px;padding: 10px;}
+.inline_ele {display: grid;grid-template-columns: auto auto;-moz-column-gap: 20px;column-gap: 20px;margin-bottom: 20px;}
+.inline_ele select {display: block;width: 100%;padding: 10px 15px;border: 1px solid #cccccc;background: #ffffff;color: #000000;border-radius: 3px;box-shadow: none;transition: all 0.3s ease-out;}
+.side_bar_content ul li {border: 1px solid #cccccc;color: #000000;border-radius: 3px;box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);}
+.side_bar_content ul li:hover {background-color: #ffc600;}
+.side_bar_content ul li a{width: 100%;display: block;}
+.side_bar_active {background-color: #a7662f; color: #fff; box-shadow: none !important;}
+.footer-form__submit {background-color: #a7662f; color: #fff;}
+.footer-form__submit:hover{background-color: #ffc600; color: #a7662f !important;}
+.side_bar_active a{color: #fff;}
+.side_bar_content ul li:hover {transition: all .5s; box-shadow: 0 0 8px 0 rgba(0,0,0,.1), 0 4px 8px 0 rgba(0,0,0,.22);}
+/* ------------------- Booking -------------------------------------- */
+#booking tr th, #notify tr th {text-align: center; padding-left: 0; padding-right: 0;}
+
+/* ------------------- FAQ ---------------------------------- */
+div.contact-infomation__item div.contact-infomation__info {padding-bottom: 10px;}
+div.contact-infomation__item div.contact-infomation__info a {color: #212529;}
+div.contact-infomation__item div.contact-infomation__info a:hover {color: #a7662f;}
+div.contact-infomation__item div.contact-infomation__info p{margin-bottom: 0;font-size: 20px;}
+div.contact-infomation__item hr {border-color: #a0a0a0;}
+small.first, small.second, small.third {display: none; color: red;}
+.display_show{display: block !important;}
+.hint {margin: 0;font-size: 12px;}
+label.big_hint {margin: 0;font-size: 14px;color: #484848;}
+
+@media screen and (max-width: 991px) {
+    section.user_dashboard .custom_avatar_large {width: 100px; height: 100px; font-size: 30px;}
+    
+}
+@media screen and (max-width: 768px) {
+    #phone_code {float: left;}
+    #mobile_verify {float: right;width: 205px;}
+    section.user_dashboard div.container {max-width: 100%;}
+    
+}
+@media screen and (max-width: 480px) {
+    #phone_code {float: left;}
+    #mobile_verify {float: right;width: 185px;}
+    .ckbox {top: 5px;}
+    .ckbox span {font-size: 12px;}
+    .ckbox span:before{top: 8px;}
+    .ckbox span:after{top: 8px;}
+}

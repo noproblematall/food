@@ -1,0 +1,96 @@
+.br-logo a {
+    margin: 0 auto;
+}
+
+.br-menu-item .active.br-menu-link:hover {
+    background-color: #50aa5b;
+}
+.br-menu-item a.br-menu-link:hover {
+    background-color: #50aa5b36;
+    /* color: #fff; */
+}
+
+table thead th, table tbody td {
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.br-menu-link.active {
+    background-color: #50aa5b;
+}
+
+[v-cloak] {
+    display: none;
+}
+/* [v-cloak]::before { content: "loading…" } */
+
+.display_show {
+    display: block;
+}
+.display_none {
+    display: none;
+}
+small {
+    display: none;
+    color: red;
+}
+
+.loader_container, .loader_chart {
+    position: fixed;
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 100000;
+}
+.sk-three-bounce {
+    margin-top: 25%;
+}
+.btn-native {
+    color: #fff;
+    background-color: #50aa5b;
+    border-color: #50aa5b;
+}
+.CodeMirror {
+    border: 1px solid #50aa5b !important;
+    background: #f2fbf3 !important;
+}
+.CodeMirror-gutters {
+    border-right: 1px solid #50aa5b !important;
+    background-color: #50aa5b !important;
+    white-space: nowrap;
+    
+}
+.CodeMirror-linenumber {
+    color: white !important;
+}
+
+.notifications {
+    top:75px !important;
+    right:10px !important;
+}
+.my-style {    
+    background: #50aa5b !important; 
+    padding: 10px !important;  
+    border-left: 5px solid #206b29;
+    margin-bottom: 15px !important;
+}
+/* ----------------------------------------- */
+
+.user_active {
+    color: #50aa5b;
+}
+.user_warning {
+    color: red;
+}
+
+/* --------------- Header ----------------- */
+
+div.notify_content {
+    max-height: 350px;
+    overflow-y: scroll;
+}
+a.media-list-link.read strong{
+    color: #50aa5b;
+}
