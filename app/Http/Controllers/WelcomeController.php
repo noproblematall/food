@@ -95,20 +95,6 @@ class WelcomeController extends Controller
         return view('faq');
     }
 
-    // public function check_auth(Request $request)
-    // {
-    //     $data = $request->all();
-    //     $request->session()->put('booking_flag', 1);
-    //     $request->session()->put('booking_data', $data);
-    //     $auth_user = Auth::user();
-    //     if($auth_user) {
-    //         return redirect(route('creat_booking'));
-    //     } else {
-    //         $request->session()->forget('booking_flag', 1);
-    //         $request->session()->forget('booking_data', $data);
-    //         return redirect(route('login'));
-    //     }
-    // }
 
     public function get_available(Request $request)
     {
